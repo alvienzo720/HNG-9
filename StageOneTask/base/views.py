@@ -18,5 +18,5 @@ class InternList(APIView):
 
     def get(self, request):
 
-        data = {"slackUsername":"Alvin Mutebi","backend":"True","age":"28","bio":"Iam a python Developer"}
+        data = {"slackUsername":"Mutebi Alvin","backend":"True","age":"28","bio":"Iam a python Developer"}
         return Response(data)
